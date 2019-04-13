@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Bataille Spatiale</title>
+    <meta name="author" content="Julien Beghain" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body >
+
+    <div id="gameArea">
+        <canvas id="stars" width="1000" height="400">
+        </canvas>
+        <div id="game">
+            <img id="vaisseau">
+        </div>
+
+    </div>
+
+    <div id="control">
+        score : <span id="score"> 0 </span>
+        <span id="chronotime">00:30</span><br>
+        <span id="bestScore"></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/Main.js"></script>
+    <script src="js/Vaisseau.js"></script>
+    <script src="js/Tir.js"></script>
+    <script src="js/Soucoupe.js"></script>
+    <script src="js/Utils.js"></script>
+    <script src="js/timer.js"></script>
+
+
+</body>
+
+</html>
